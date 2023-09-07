@@ -7,6 +7,9 @@ import java.util.List;
 public class StreamsCalculateTotalCost {
     int calculateTotalCostOfAllProducts(List<Product> products) {
         // TODO: implement
+        System.out.println(products.get(0).getPrice());
+
+        products.stream().;
 
         return 0;
     }
